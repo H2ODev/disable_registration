@@ -1,8 +1,8 @@
 <config>
     <modules>
-        <H2ODev_Customer>
+        <H2ODev_DisableRegistration>
             <active>true</active>
             <codePool>local</codePool>
-        </H2ODev_Customer>
+        </H2ODev_DisableRegistration>
     </modules>
 </config>

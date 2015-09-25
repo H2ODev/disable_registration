@@ -1,5 +1,5 @@
 # Comments are supported, begin a line with a hash
-src                         app/code/local/H2ODev/Customer/
+src                         app/code/local/H2ODev/DisableRegistration/
 
 # Destination file name is not required if the same as the source.
-H2ODev_Customer.xml          app/etc/modules/
+H2ODev_DisableRegistration.xml          app/etc/modules/

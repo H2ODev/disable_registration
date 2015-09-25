@@ -1,0 +1,24 @@
+<config>
+    <modules>
+        <H2ODev_DisableRegistration>
+            <version>0.0.1</version>
+        </H2ODev_DisableRegistration>
+    </modules>
+    <global>
+        <models>
+            <h2odevdisableregistration>
+                <class>H2ODev_DisableRegistration_Model</class>
+            </h2odevdisableregistration>
+        </models>
+        <events>
+            <customer_registration_is_allowed>
+                <observers>
+                    <H2ODev_DisableRegistration_model_observer>
+                        <class>H2ODev_DisableRegistration_Model_Observer</class>
+                        <method>disable</method>
+                    </H2ODev_DisableRegistration_model_observer>
+                </observers>
+            </customer_registration_is_allowed>
+        </events>
+    </global>
+</config>
