@@ -16,7 +16,7 @@ class H2ODev_DisableRegistration_Model_Observer
      * @return true
      */
     public function disable ($observer){
-        //$observer->result->setIsAllowed(false);
+        $observer->result->setIsAllowed(false);
         return true;
     }
 }
