@@ -2,4 +2,4 @@
 src                         app/code/local/H2ODev/Customer/
 
 # Destination file name is not required if the same as the source.
-H2ODev_MagentoCustomer.xml          app/etc/modules/
+H2ODev_Customer.xml          app/etc/modules/
